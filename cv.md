@@ -6,7 +6,7 @@
     * e-mail: _badjaaga@gmail.com_
     * skype: _nadjuha_97_
     * telegram: _badjaaga_
-    * phone: _+ 375 33 900 60 90_
+    * phone: _+ 375 33 600 90 60_
 	
 _Be the best version of you!_ - It is my logan for life.
 
@@ -25,4 +25,4 @@ _Be the best version of you!_ - It is my logan for life.
   * Grodno State Polytechnic College. "Civil and construction building" 2016
   * Yanka Kupala State University of Grodno. "Civil and construction building" 5th course. year of graduation: 2022. 
   * course JavaRush
-* **English**: A1. 
+* **English**: A2+. 
