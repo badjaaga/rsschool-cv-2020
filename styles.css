@@ -1,0 +1,52 @@
+body{
+    width: 1024px;
+    font-family: Arial, serif;
+}
+header{
+    align-self: center;
+    margin: 30px;
+    padding: 30px;
+    background: white;
+    border: 3px solid #5a96aa;
+    border-radius: 30px;
+    height: 250px;
+}
+header img{
+    position: relative;
+    top: -140px;
+    left: 550px;
+    border: none;
+    border-radius: 30px;
+}
+article{
+    align-self: center;
+    background: #5a96aa;
+    color: white;
+    margin: 30px;
+    padding: 30px;
+    border: none;
+    border-radius: 30px;
+}
+section{
+    align-self: center;
+    margin: 30px;
+    padding: 15px;
+    border: 3px solid darkorange;
+    border-radius: 30px;
+}
+footer{
+    align-self: center;
+    margin: 30px;
+    padding: 30px;
+    color: white;
+    background: darkorange;
+    border: 3px solid darkorange;
+    border-radius: 30px;
+}
+
+
+
+
+
+
+
