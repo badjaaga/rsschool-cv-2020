@@ -1,47 +1,55 @@
-body{
-    width: 1024px;
-    font-family: Arial, serif;
-}
-header{
-    align-self: center;
+.header {
     margin: 30px;
     padding: 30px;
+    width: 1024px;
+    height: 250px;
+
+    font-family: Arial, serif;
+
     background: white;
     border: 3px solid #5a96aa;
     border-radius: 30px;
-    height: 250px;
+
 }
-header img{
+
+.photo {
     position: relative;
     top: -140px;
-    left: 550px;
+    left: 650px;
+
     border: none;
-    border-radius: 30px;
 }
-article{
-    align-self: center;
+
+.main {
+    margin: 30px;
+    padding: 30px;
+    width: 1024px;
+
+    font-family: Arial, serif;
+
     background: #5a96aa;
     color: white;
-    margin: 30px;
-    padding: 30px;
-    border: none;
+    border: 3px solid #5a96aa;
     border-radius: 30px;
 }
-section{
-    align-self: center;
+
+.section {
     margin: 30px;
     padding: 15px;
+
     border: 3px solid darkorange;
     border-radius: 30px;
 }
-footer{
-    align-self: center;
+
+.information {
     margin: 30px;
     padding: 30px;
-    color: white;
-    background: darkorange;
+    width: 1024px;
+
     border: 3px solid darkorange;
     border-radius: 30px;
+    color: white;
+    background: darkorange;
 }
 
 
