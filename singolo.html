@@ -5,41 +5,49 @@
     <title>Singolo</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles.css">
-</head>
+    </head>
 <body>
-<header class = "header" id ="home">
-    <div class="wrapper header__wrapper">
+<header class = "header">
+    <div class="wrapper header__wrapper" >
     <h1 class="logo">SINGOLO</h1>
-    <nav class="navigation">
-        <ul class="navigation__buttons">
-            <li><a href="#home">HOME</a></li>
-            <li class ="divider"></li>
-            <li><a href="#services">SERVICES</a></li>
-            <li class ="divider"></li>
-            <li><a href="#portfolio">PORTFOLIO</a></li>
-            <li class ="divider"></li>
-            <li><a href="#footer">ABOUT</a></li>
-            <li class ="divider"></li>
-            <li><a href="#footer">CONTACT</a></li>
-        </ul>
+        <div id="header-menu" class="hidden"></div>
+    <nav class="navigation__links" id = "navigation-menu">
+            <a href="#home" class="navigation__buttons link">HOME</a>
+                <span class ="divider"></span>
+            <a href="#services" class="navigation__buttons link">SERVICES</a>
+                <span class ="divider"></span>
+            <a href="#portfolio" class="navigation__buttons link">PORTFOLIO</a>
+                <span class ="divider"></span>
+            <a href="#footer" class="navigation__buttons link">ABOUT</a>
+                <span class ="divider"></span>
+            <a href="#footer" class="navigation__buttons link">CONTACT</a>
     </nav>
     </div>
 </header>
-    <section class="slider">
+<div class="container" >
+    <section class="slider" id="home">
         <div class="wrapper slider__wrapper">
-        <img class="slider__arrow-left" height ="27px" width="16px" src="assets/icons/arrow-left.svg" alt="arrow-left"/>
-            <img class="slider__model-one" height="483px" width="240px" src="assets/img/phone-vertical.svg"
-                 alt="image-phone-1"/>
-            <img class="slider__model-two" height = "240px" width="483px" src="assets/img/phone-horizontal.svg"
-             alt="image-phone-2"/>
-        <img class="slider__arrow-right" src="assets/icons/arrow-right.svg" alt="arrow-right"/>
+        <img class="slider__arrow-left" id = "button-left" height ="27px" width="16px" src="assets/icons/arrow-left.svg" alt="arrow-left"/>
+<!--            <img class="slider__model-one" height="483px" width="240px" src="assets/img/phone-vertical.svg"-->
+<!--                 alt="image-phone-1"/>-->
+<!--            <img class="slider__model-two" height = "240px" width="483px" src="assets/img/phone-horizontal.svg"-->
+<!--             alt="image-phone-2"/>-->
+            <div class="slider__wrap">
+                <div class="slider__item">
+                <img src="assets/img/slider-1.svg" alt="slide-1" class="slider__img">
+                </div>
+                <div class="slider__item">
+                <img src="assets/img/slider-2.svg" alt="slide-2" class="slider__img">
+                </div>
+            </div>
+        <img class="slider__arrow-right" id = "button-right" src="assets/icons/arrow-right.svg" alt="arrow-right"/>
         </div>
     </section>
     <section class="information" id ="services">
         <div class="wrapper information__wrapper">
         <h1 class="information__header">Our Services</h1>
         <p class="information__description">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-            <section class="information__article-list">
+            <div class="information__article-list">
                 <article class="article">
                     <div class="article__icon1"></div>
                     <div class="article__content">
@@ -82,7 +90,7 @@
                         <p class="article__description">Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus.</p>
                     </div>
                 </article>
-            </section>
+            </div>
        </div>
     </section>
     <section class="portfolio" id ="portfolio">
@@ -90,12 +98,12 @@
         <h1 class="portfolio__header">Portfolio</h1>
         <p class="portfolio__description">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
         <div class="portfolio__filter-list">
-            <button class="filter-item">All</button>
-            <button class="filter-item">Web Design</button>
-            <button class="filter-item">Graphic Design</button>
-            <button class="filter-item">Artwork</button>
+            <button class="filter-item" onclick="display_random_image()">All</button>
+            <button class="filter-item" onclick="display_random_image()">Web Design</button>
+            <button class="filter-item" onclick="display_random_image()">Graphic Design</button>
+            <button class="filter-item" onclick="display_random_image()">Artwork</button>
         </div>
-        <section class="portfolio__content">
+        <div class="portfolio__content">
             <img class="portfolio__image" src="assets/img/portfolio-1.svg" alt="images/portfolio 1 image" height="187px" width="220px">
             <img class="portfolio__image" src="assets/img/portfolio-2.svg" alt="images/portfolio 2 image" height="187px" width="220px">
             <img class="portfolio__image" src="assets/img/portfolio-3.svg" alt="images/portfolio 3 image" height="187px" width="220px">
@@ -108,7 +116,7 @@
             <img class="portfolio__image" src="assets/img/portfolio-10.svg" alt="images/portfolio 10 image" height="187px" width="220px">
             <img class="portfolio__image" src="assets/img/portfolio-11.svg" alt="images/portfolio 11 image" height="187px" width="220px">
             <img class="portfolio__image" src="assets/img/portfolio-12.svg" alt="images/portfolio 12 image" height="187px" width="220px">
-        </section>
+        </div>
         </div>
         </section>
 <footer class="footer" id = "footer">
@@ -122,5 +130,7 @@
         </nav>
     </div>
 </footer>
+</div>
 </body>
+<script src="scripts.js"></script>
 </html>
