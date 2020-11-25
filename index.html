@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+<main>
+    <div class="wrapper">
+        <header class = "header">
+            <h1>Простой калькулятор</h1>
+            <button class="header__demo-button" id="demo-button">Как это работает</button>
+            <div class = "how-it-works">
+                <ul id ="operations-list">
+                </ul>
+            </div>
+        </header>
+        <div class="calculator">
+            <div class="calculator__display">
+                <input disabled type="text" id="display" value="0" class="calculator__display input">
+            </div>
+            <div class="calculator__buttons">
+                <button class="button delete" id = "delete">CE</button>
+                <button class="button delete" id = "clear">C</button>
+                <button class="button math-operation" value="divide">/</button>
+                <button class="button math-operation" value ="multiply">*</button>
+                <button class="button digit">7</button>
+                <button class="button digit">8</button>
+                <button class="button digit">9</button>
+                <button class="button math-operation" value ="substarct">-</button>
+                <button class="button digit">4</button>
+                <button class="button digit">5</button>
+                <button class="button digit">6</button>
+                <button class="button math-operation" value="adding">+</button>
+                <button class="button digit">1</button>
+                <button class="button digit">2</button>
+                <button class="button digit">3</button>
+                <button class="button button-long result" id = "result" value="result">=</button>
+                <button class="button button-wide digit">0</button>
+                <button class="button decimal" id = "decimal">.</button>
+            </div>
+        </div>
+    </div>
+</main>
+<script src="script.js">
+</script>
+</body>
+</html>
