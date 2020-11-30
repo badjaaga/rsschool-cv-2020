@@ -135,7 +135,7 @@ html, body, ul, ol, li, form, fieldset, legend{
 }
 
 /*================================header================================*/
-.wrapper {
+.content-constrain-wrapper {
     margin: auto;
     max-width: 1020px;
 }
@@ -156,9 +156,6 @@ html, body, ul, ol, li, form, fieldset, legend{
     font-family: Lato, Arial, serif;
     color: white;
     letter-spacing: -0.03em;
-
-
-
 }
 
 .header {
@@ -230,8 +227,8 @@ section{
 
     max-height: 594px;
     max-width: 1020px;
-
 }
+
 .slider__wrap{
     display: flex;
     transition: transform .5s;
@@ -279,9 +276,7 @@ section{
 
     padding: 46px 40px 59px;
 
-    max-width: 1020px;
     min-height: 500px;
-    margin: auto;
 
     border-bottom: 6px solid #FFFFFF;
 }
