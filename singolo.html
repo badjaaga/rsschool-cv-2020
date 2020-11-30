@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Singolo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    </head>
+<body>
+<header class = "header">
+    <div class="content-constrain-wrapper header__wrapper" >
+    <h1 class="logo">SINGOLO</h1>
+        <div id="header-menu" class="hidden"></div>
+    <nav class="navigation__links" id = "navigation-menu">
+            <a href="#home" class="navigation__buttons link">HOME</a>
+                <span class ="divider"></span>
+            <a href="#services" class="navigation__buttons link">SERVICES</a>
+                <span class ="divider"></span>
+            <a href="#portfolio" class="navigation__buttons link">PORTFOLIO</a>
+                <span class ="divider"></span>
+            <a href="#footer" class="navigation__buttons link">ABOUT</a>
+                <span class ="divider"></span>
+            <a href="#footer" class="navigation__buttons link">CONTACT</a>
+    </nav>
+    </div>
+</header>
+<div class="container-for-content-of-page ">
+    <section class="slider" id="home">
+        <div class="content-constrain-wrapper slider__wrapper">
+        <img class="slider__arrow-left" id = "button-left" height ="27px" width="16px" src="assets/icons/arrow-left.svg" alt="arrow-left"/>
+            <div class="slider__wrap">
+                <div class="slider__item">
+                <img src="assets/img/Slide-1.svg" alt="slide-1" class="slider__img">
+                </div>
+                <div class="slider__item">
+                <img src="assets/img/Slide-2.svg" alt="slide-2" class="slider__img">
+                </div>
+            </div>
+        <img class="slider__arrow-right" id = "button-right" src="assets/icons/arrow-right.svg" alt="arrow-right"/>
+        </div>
+    </section>
+    <section class="information" id ="services">
+        <div class="content-constrain-wrapper information__wrapper">
+        <h1 class="information__header">Our Services</h1>
+        <p class="information__description">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+            <div class="information__article-list">
+                <article class="article">
+                    <div class="article__icon1"></div>
+                    <div class="article__content">
+                        <h2 class="article__header">Custom Design</h2>
+                        <p class="article__description">Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam laoreet, viverra lacus ut, ultrices velit.</p>
+                    </div>
+                </article>
+                <article class="article">
+                    <div class="article__icon2"></div>
+                    <div class="article__content">
+                        <h2 class="article__header">Inovative Ideas</h2>
+                        <p class="article__description">Quisque luctus, quam eget molestie commodo, lacus purus cursus purus, nec rutrum tellus dolor id lorem.</p>
+                    </div>
+                </article>
+                <article class="article">
+                    <div class="article__icon3"></div>
+                    <div class="article__content">
+                        <h2 class="article__header">Love Is The Answer</h2>
+                        <p class="article__description">Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis. Quisque condimentum.</p>
+                    </div>
+                </article>
+                <article class="article">
+                    <div class="article__icon4"></div>
+                    <div class="article__content">
+                        <h2 class="article__header">Responsive Layout</h2>
+                        <p class="article__description">Sed porttitor placerat rhoncus. In at nunc tellus. Maecenas blandit nunc ligula. Praesent elit leo.</p>
+                    </div>
+                </article>
+                <article class="article">
+                    <div class="article__icon5"></div>
+                    <div class="article__content">
+                        <h2 class="article__header">24 / 7 Support</h2>
+                        <p class="article__description">Vivamus vel quam lacinia, tincidunt dui non, vehicula nisi. Nulla a sem erat. Pellentesque egestas venenatis lorem .</p>
+                    </div>
+                </article>
+                <article class="article">
+                    <div class="article__icon6"></div>
+                    <div class="article__content">
+                        <h2 class="article__header">Feel Like A Star</h2>
+                        <p class="article__description">Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus.</p>
+                    </div>
+                </article>
+            </div>
+       </div>
+    </section>
+    <section class="portfolio" id ="portfolio">
+        <div class="content-constrain-wrapper portfolio__wrapper">
+        <h1 class="portfolio__header">Portfolio</h1>
+        <p class="portfolio__description">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+        <div class="portfolio__filter-list">
+            <button class="filter-item" onclick="display_random_image()">All</button>
+            <button class="filter-item" onclick="display_random_image()">Web Design</button>
+            <button class="filter-item" onclick="display_random_image()">Graphic Design</button>
+            <button class="filter-item" onclick="display_random_image()">Artwork</button>
+        </div>
+        <div class="portfolio__content">
+            <img class="portfolio__image" src="assets/img/portfolio-1.svg" alt="images/portfolio 1 image" height="187px" width="220px">
+            <img class="portfolio__image" src="assets/img/portfolio-2.svg" alt="images/portfolio 2 image" height="187px" width="220px">
+            <img class="portfolio__image" src="assets/img/portfolio-3.svg" alt="images/portfolio 3 image" height="187px" width="220px">
+            <img class="portfolio__image" src="assets/img/portfolio-4.svg" alt="images/portfolio 4 image" height="187px" width="220px">
+            <img class="portfolio__image" src="assets/img/portfolio-5.svg" alt="images/portfolio 5 image" height="187px" width="220px">
+            <img class="portfolio__image" src="assets/img/portfolio-6.svg" alt="images/portfolio 6 image" height="187px" width="220px">
+            <img class="portfolio__image" src="assets/img/portfolio-7.svg" alt="images/portfolio 7 image" height="187px" width="220px">
+            <img class="portfolio__image" src="assets/img/portfolio-8.svg" alt="images/portfolio 8 image" height="187px" width="220px">
+            <img class="portfolio__image" src="assets/img/portfolio-9.svg" alt="images/portfolio 9 image" height="187px" width="220px">
+            <img class="portfolio__image" src="assets/img/portfolio-10.svg" alt="images/portfolio 10 image" height="187px" width="220px">
+            <img class="portfolio__image" src="assets/img/portfolio-11.svg" alt="images/portfolio 11 image" height="187px" width="220px">
+            <img class="portfolio__image" src="assets/img/portfolio-12.svg" alt="images/portfolio 12 image" height="187px" width="220px">
+        </div>
+        </div>
+        </section>
+<footer class="footer" id = "footer">
+    <div class="content-constrain-wrapper footer__wrapper">
+    <p class="footer__mark">© Copyright 2013</p>
+        <nav class="social-links">
+            <a class="facebook-button" href="https://www.facebook.com/" target="_blank"></a>
+            <a class="google-button" href="https://www.google.com/" target="_blank"></a>
+            <a class="twitter-button" href="https://twitter.com/" target="_blank"></a>
+            <a class="linkedin-button" href="https://www.linkedin.com/" target="_blank"></a>
+        </nav>
+    </div>
+</footer>
+</div>
+</body>
+<script src="scripts.js"></script>
+</html>
