@@ -1,0 +1,53 @@
+:root {
+    --base: #ffc600;
+    --spacing: 10px;
+    --blur: 10px;
+    --invert: 10%;
+    --contrast: 75%;
+    --brightness: 10%;
+}
+
+img {
+    height: 60vh;
+    width: 60vh;
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur)) invert(var(--invert)) contrast(var(--contrast)) brightness(var(--brightness));
+}
+
+.hl {
+    color: var(--base);
+}
+
+label{
+    font-weight: 300;
+}
+
+/*
+  misc styles, nothing to do with CSS variables
+*/
+
+body {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: #193549;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3rem;
+}
+
+h2{
+    text-align: center;
+    margin: 0;
+    padding: 50px;
+}
+
+.controls{
+    padding: 50px;
+}
+input {
+    width: 100px;
+}
